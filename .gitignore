@@ -1,0 +1,53 @@
+# ==============================================================================
+# CapCut for Linux - Git Hygiene & Exclusion Rules
+# ==============================================================================
+
+# Executables & Binaries (ByteDance proprietary or downloaded binaries)
+*.exe
+*.msi
+*.dll
+*.iso
+*.bin
+*.tar.gz
+*.zip
+*.7z
+
+# Wine Prefix & Runtime Data
+prefix/
+wineprefix/
+*.prefix/
+downloads/
+cache/
+tmp/
+temp/
+
+# Log Files & Debugging Dumps
+*.log
+*.dump
+*.crash
+*.trace
+winetricks.log
+
+# Internal AI Agents, Specs, Notes & Assistant Artifacts
+spec.md
+SPEC.md
+plan.md
+PLAN.md
+todo.md
+TODO.md
+tasks.md
+notes.md
+tasks/
+.antigravity/
+.claude/
+.cursor/
+.gemini/
+.idea/
+.vscode/
+
+# Operating System Residues
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.bak
